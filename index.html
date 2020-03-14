@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset= "UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel= "stylesheet" href="style.css">
+	<link rel="icon" href="logo.png">
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script type="text/javascript"></script>
+	<title>CCS PABIBO</title>
+</head>
+	<body>
+		<div class="con">
+			<div class="info-section">
+				
+				<div class="brand-logo">
+					<div class="logo-pic">
+						<img src="./imgs/hubloc-logo.png" id="logo-pic">
+					</div>
+				</div>
+
+				<div class="headers">
+					<div class="inside-headers">
+						<div class="row">
+							<img src="./imgs/symbol-1.png" id="symbol">
+							<div class="sentence-box">
+								<span id="row-sentence">Discover new interesting things.</span>
+							</div>
+						</div>
+
+						<div class="row">
+							<img src="./imgs/symbol-2.png" id="symbol">
+							<div class="sentence-box">
+								<span id="row-sentence">Connect with people.</span>
+							</div>
+						</div>
+
+						<div class="row">
+							<img src="./imgs/symbol-3.png" id="symbol">
+							<div class="sentence-box">
+								<span id="row-sentence">Connect and create your circles.</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+
+
+
+
+
+
+
+			<div class="log-section">
+
+				<div class="inner-log-section">
+
+				<!-- LOGIN --><!-- LOGIN --><!-- LOGIN --><!-- LOGIN --><!-- LOGIN --><!-- LOGIN -->
+
+				<form class="login-form">
+
+					<div class="login-brand">	
+						<h2>Login to Hubloc</h2>
+					</div>
+
+					<div class="login-section-userpass">
+
+						<div class= "inputbox">
+							<label>Username</label>
+							<input type= "text" name="" required= "" maxlength="40">	
+						</div>
+
+						<div class="inputbox">
+							<label>Password</label>
+							<input type= "password" name="" required= "" maxlength="40">
+						</div>
+
+					</div>
+
+
+					<div class="login-section-subreg">
+						<input type= "submit" placeholder="" value= "Submit">
+						<span class="message">Not registered? <a href="#">register</a></span>
+					</div>
+
+				</form>
+
+				<!-- LOGIN --><!-- LOGIN --><!-- LOGIN --><!-- LOGIN --><!-- LOGIN --><!-- LOGIN -->
+
+
+				<!-- REGISTER --><!-- REGISTER --><!-- REGISTER --><!-- REGISTER --><!-- REGISTER -->
+
+				<form class="register-form">
+
+					<div class="register-brand">	
+						<h2>Create an account</h2>
+					</div>
+
+					<div class="register-section-details">
+						<div class= "inputbox">
+							<label>E-mail Address</label>
+							<input type= "text" name="" required= "" maxlength="40">
+						</div>
+
+						<div class= "inputbox">
+							<label>Username</label>
+							<input type= "text" name="" required= "" maxlength="40">
+						</div>
+
+						<div class="inputbox">
+							<label>Password</label>
+							<input type= "password" name="" required= "" maxlength="40">
+						</div>
+
+					</div>
+
+					<div class="register-section-sublogin">
+						<input type= "submit" placeholder="" value= "Submit">
+						<span class="message">Have an account? <a href="#">login</a></span>
+					</div>
+
+				</form>
+
+				<!-- REGISTER --><!-- REGISTER --><!-- REGISTER --><!-- REGISTER --><!-- REGISTER -->
+
+				</div>
+			</div>
+
+
+
+				<!-- <script>
+					$ ('.message').click(function(){
+						$('form').slideUp(1000).slideDown(1000);
+					});
+				</script> -->
+			<script>
+				$ ('.message').click(function(){
+					$('form').animate({height: "toggle", opacity: "toggle"}, 1000);
+					// $('form').slideUp(1000).slideDown(1000);
+				});
+			</script>
+
+		</div>
+	</body>
+</html>
