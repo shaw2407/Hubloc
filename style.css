@@ -392,7 +392,7 @@
 
 /*SMALLEST DEVICE*/ /*SMALLEST DEVICE*/ /*SMALLEST DEVICE*/ /*SMALLEST DEVICE*/ /*SMALLEST DEVICE*/ /*SMALLEST DEVICE*/ /*SMALLEST DEVICE*/ 
 
-@media only screen and (max-width: 719px){
+@media only screen and (max-width: 480px){
 		body{
 		padding: 0;
 		margin: 0;
