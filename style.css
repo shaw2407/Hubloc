@@ -17,9 +17,14 @@
 		display: flex;
 	}
 
-	.info-section, .log-section{
-		height: 100vh;
-		width: 50%;
+	.info-section{
+		height: 100%;
+		width: 35%;
+	}
+
+	.log-section{
+		width: 65%;
+		height: 100%;
 	}
 
 
@@ -28,6 +33,8 @@
 	/*log*/ /*log*/ /*log*/ /*log*/ /*log*/ /*log*/ /*log*/ /*log*/ /*log*/ /*log*/ /*log*/ /*log*/ /*log*/ /*log*/ /*log*/ /*log*/ /*log*/ /*log*/ 
 
 	.log-section{
+		margin: 0;
+		padding: 0;
 		background-color: rgb(235, 235, 235);
 		display: flex;
 		align-items: center;
@@ -36,8 +43,7 @@
 
 	.inner-log-section{
 		margin: 0;
-		padding: 0;
-		display: flex;
+		display: inline-flex;
 		align-items: center;
 		justify-content: center;
 	}
@@ -45,26 +51,26 @@
 	.login-form{
 		position: absolute;
 		font-family: 'Share Tech', sans-serif;
-/*		background: #1a1a1d;
-		height: 50%;
-		width: 350px;
-		box-sizing: border-box;
-		border-radius: 10px;
-		box-shadow: 0 8px 50px rgba(0, 0, 0, .8);
-		color: rgb(235, 235, 235);*/
+		/*background: #1a1a1d;*/
+		/*height: 50%;*/
+		/*width: 350px;*/
+		/*box-sizing: border-box;*/
+		/*border-radius: 10px;*/
+		/*box-shadow: 0 8px 50px rgba(0, 0, 0, .8);*/
+		/*color: rgb(235, 235, 235);*/
 		color: #780a1c;
 	}
 
 	.register-form{
 		position: absolute;
 		font-family: 'Share Tech', sans-serif;
-/*		background: #1a1a1d;
+		/*background: #1a1a1d;
 		height: 58%;
 		width: 350px;
 		box-sizing: border-box;
 		border-radius: 10px;
-		box-shadow: 0 8px 50px rgba(0, 0, 0, .8);
-		color: rgb(235, 235, 235);*/
+		box-shadow: 0 8px 50px rgba(0, 0, 0, .8);*/
+		/*color: rgb(235, 235, 235);*/
 		color: #780a1c;
 	}
 
@@ -117,10 +123,10 @@
 
 	.login-section-subreg,
 	.register-section-sublogin{
-		width: 90%;
+		width: 100%;
 		height: 50px;
 		font-size: 1em;
-		padding: 10% 0 0 10%;
+		padding: 10% 0 0 0;
 		text-transform: none;
 	}
 
@@ -128,16 +134,17 @@
 	.register-section-sublogin a{
 		text-decoration: none;
 		color: #ffa5ab;
+		text-transform: uppercase;
 	}
 
 	.login-section-subreg input[type="submit"],
 	.register-section-sublogin input[type="submit"]{
 		outline: none;
-		border: 1px solid #ebebeb;
+		border: 1px solid #780a1c;
 		cursor: pointer;
 		background: transparent;
 		font-size: 1em;
-		color: #ebebeb;
+		color: #780a1c;
 		font-weight: bold;
 	}
 
@@ -145,8 +152,8 @@
 	.login-section-subreg input[type="submit"]:active,
 	.register-section-sublogin input[type="submit"]:hover,
 	.register-section-sublogin input[type="submit"]:active{
-		background: #ebebeb;
-		color: #373234;
+		background: #780a1c;
+		color: #ebebeb;
 	}
 
 	.register-form{
@@ -351,10 +358,10 @@
 
 	.login-section-subreg,
 	.register-section-sublogin{
-		width: 90%;
+		width: 100%;
 		height: 50px;
 		font-size: 1em;
-		padding: 10% 0 0 10%;
+		padding: 10% 0 0 0;
 		text-transform: none;
 	}
 
@@ -362,6 +369,7 @@
 	.register-section-sublogin a{
 		text-decoration: none;
 		color: #ffa5ab;
+		text-transform: uppercase;
 	}
 
 	.login-section-subreg input[type="submit"],
@@ -392,8 +400,8 @@
 
 /*SMALLEST DEVICE*/ /*SMALLEST DEVICE*/ /*SMALLEST DEVICE*/ /*SMALLEST DEVICE*/ /*SMALLEST DEVICE*/ /*SMALLEST DEVICE*/ /*SMALLEST DEVICE*/ 
 
-@media only screen and (min-width: 480) (max-width: 719px){
-		body{
+@media only screen and (min-width: 480px) and (max-width: 719px){
+	body{
 		padding: 0;
 		margin: 0;
 		font: 14px/1 Arial, Helvetica, san-serif;
@@ -401,69 +409,56 @@
 	}
 
 	.con{
+		margin: 0;
+		padding: 0;
 		height: 100vh;
 		width: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
 		background: rgb(120 10 28);
 	}
 
 	.log-section{
-		height: 100vh;
+		position: relative;
+		margin: 0;
+		padding: 0;
 		width: 100%;
+		height: 100%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-	}
-
-	.info-section{
-		display: none;
 	}
 
 	.inner-log-section{
-		margin: 0;
-		padding: 0;
+		position: absolute;
+		background: lightgreen;
 		display: flex;
-		align-items: center;
 		justify-content: center;
+		align-items: center;
 	}
 
-	.login-form{
-		position: absolute;
-		font-family: 'Share Tech', sans-serif;
-		/*background: #1a1a1d;*/
-/*		height: 50%;
-		width: 350px;*/
-		/*box-sizing: border-box;*/
-		/*border-radius: 10px;*/
-		/*box-shadow: 0 8px 50px rgba(0, 0, 0, .8);*/
-		color: rgb(235, 235, 235);
-	}
-
+	.login-form,
 	.register-form{
+		margin: 0;
 		position: absolute;
 		font-family: 'Share Tech', sans-serif;
-		/*background: #1a1a1d;*/
-/*		height: 58%;
-		width: 350px;*/
-/*		box-sizing: border-box;
+		color: rgb(235 235 235);
+		/*background: #1a1a1d;
+		height: 50%;
+		width: 350px;
+		box-sizing: border-box;
 		border-radius: 10px;
-		box-shadow: 0 8px 50px rgba(0, 0, 0, .8);*/
-		color: rgb(235, 235, 235);
+		box-shadow: 0 8px 50px rgba(0, 0, 0, .8);
+		color: rgb(235, 235, 235);*/
 	}
-
-
 
 	.login-brand,
 	.register-brand{
-		margin: 20%  0 20% 0;
+		margin: 0;
+		/*margin: 20%  0 20% 0;*/
 		padding: 0;
-		height: 50px;
-		width: 100%;
 		display: flex;
 		justify-content: center;
-		font-size: 2em;
+		width: 100%;
+		font-size: 1.87em;
 		color: #ebebeb;
 		text-transform: uppercase;
 	}
@@ -473,23 +468,14 @@
 		display: flex;
 		flex-direction: column;
 		align-items: baseline;
-		height: 100px;
-		width: 100%;
+/*		height: 100px;
+		width: 100%;*/
 		/*padding: 5% 0 0 10%;*/
-	}
-
-	.register-section-details{
-		height: 150px;
-	}
-
-	.inputbox{
-		width: 100%;
 	}
 
 	.inputbox input[type="text"],
 	.inputbox input[type="password"]{
-		font-size: 1em;
-		width: 100%;
+		font-size: 1.5em;	
 		border:	none;
 		outline: none;
 		background-color: transparent;
@@ -500,10 +486,9 @@
 
 	.login-section-subreg,
 	.register-section-sublogin{
-		width: 90%;
-		height: 50px;
+		width: 100%;
 		font-size: 1em;
-		padding: 10% 0 0 10%;
+		padding: 9% 0 0 0;
 		text-transform: none;
 	}
 
@@ -511,6 +496,7 @@
 	.register-section-sublogin a{
 		text-decoration: none;
 		color: #ffa5ab;
+		text-transform: uppercase;
 	}
 
 	.login-section-subreg input[type="submit"],
@@ -532,7 +518,21 @@
 		color: #373234;
 	}
 
+	.info-section{
+		display: none;
+	}
+
 	.register-form{
 		display: none;
 	}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 479px){
+
 }
