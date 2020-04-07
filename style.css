@@ -438,7 +438,7 @@
 	.login-form,
 	.register-form{
 		margin: 0;
-		position: absolute;
+		position: relative;
 		font-family: 'Share Tech', sans-serif;
 		color: rgb(235 235 235);
 		/*background: #1a1a1d;
