@@ -1,147 +1,177 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset= "UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel= "stylesheet" href="style.css">
-	<link rel="icon" href="logo.png">
-	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-	<script type="text/javascript"></script>
-	<title>CCS PABIBO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/0a06301d86.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Document</title>
 </head>
-	<body>
-		<div class="con">
-			<div class="info-section">
-				
-				<div class="brand-logo">
-					<div class="logo-pic">
-						<img src="./imgs/hubloc-logo.png" id="logo-pic">
-					</div>
-				</div>
+<body>
+    <header>
+        <div class="container">
+            <nav data-nav>
+                <div class="logo">
+                    <h1 class="first-word">Kanan</h1>
+                    <div class="second-word-box">
+                        <div class="line line-left"></div>
+                        <h2 class="second-word">Me</h2>
+                        <div class="line line-right"></div>
+                    </div>
+                </div>
 
-				<div class="headers">
-					<div class="inside-headers">
-						<div class="row">
-							<img src="./imgs/symbol-1.png" id="symbol">
-							<div class="sentence-box">
-								<span id="row-sentence">Discover new things.</span>
-							</div>
-						</div>
+                <div class="menu-toggle">
+                    <i class="fa fa-bars" aria-hidden="true" data-toggle></i>
+                </div>
 
-						<div class="row">
-							<img src="./imgs/symbol-2.png" id="symbol">
-							<div class="sentence-box">
-								<span id="row-sentence">Connect with people.</span>
-							</div>
-						</div>
+                
+                <ul class="nav-list">
+                    <li class="menu-close">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="nav-link">Menu</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="nav-link">Reservation</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-						<div class="row">
-							<img src="./imgs/symbol-3.png" id="symbol">
-							<div class="sentence-box">
-								<span id="row-sentence">Create your circles.</span>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-
-
-
-
-
-
-
-
-			<div class="log-section">
-
-				<div class="inner-log-section">
-
-				<!-- LOGIN --><!-- LOGIN --><!-- LOGIN --><!-- LOGIN --><!-- LOGIN --><!-- LOGIN -->
-
-				<form class="login-form">
-
-					<div class="login-brand">	
-						<h2>Login to Hubloc</h2>
-					</div>
-
-					<div class="login-section-userpass">
-
-						<div class= "inputbox">
-							<label>Username</label>
-							<input type= "text" name="" required= "" maxlength="40">	
-						</div>
-
-						<div class="inputbox">
-							<label>Password</label>
-							<input type= "password" name="" required= "" maxlength="40">
-						</div>
-
-					</div>
+    
+    <!-- Header ends here -->
 
 
-					<div class="login-section-subreg">
-						<input type= "submit" placeholder="" value= "Submit">
-						<span class="message">Not registered? <a href="#">register</a></span>
-					</div>
+    <section class="main-section">
+        <div class="contaier">
+            <div class="main-section-logo">
+                <h1 class="main-first-word">Manyaman</h1>
+                <h1 class="main-second-word">Try me</h1>               
+            </div>
+            <div class="call-action-box">
+                <div class="call-action-1">
+                    <h1>Order Now</h1>
+                </div>
+                <div class="call-action-2">
+                    <h1>Book Now</h1>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				</form>
-
-				<!-- LOGIN --><!-- LOGIN --><!-- LOGIN --><!-- LOGIN --><!-- LOGIN --><!-- LOGIN -->
-
-
-				<!-- REGISTER --><!-- REGISTER --><!-- REGISTER --><!-- REGISTER --><!-- REGISTER -->
-
-				<form class="register-form">
-
-					<div class="register-brand">	
-						<h2>Create an account</h2>
-					</div>
-
-					<div class="register-section-details">
-						<div class= "inputbox">
-							<label>E-mail Address</label>
-							<input type= "text" name="" required= "" maxlength="40">
-						</div>
-
-						<div class= "inputbox">
-							<label>Username</label>
-							<input type= "text" name="" required= "" maxlength="40">
-						</div>
-
-						<div class="inputbox">
-							<label>Password</label>
-							<input type= "password" name="" required= "" maxlength="40">
-						</div>
-
-					</div>
-
-					<div class="register-section-sublogin">
-						<input type= "submit" placeholder="" value= "Submit">
-						<span class="message">Have an account? <a href="#">login</a></span>
-					</div>
-
-				</form>
-
-				<!-- REGISTER --><!-- REGISTER --><!-- REGISTER --><!-- REGISTER --><!-- REGISTER -->
-
-				</div>
-			</div>
+    <!-- main section ends here -->
 
 
+    <section class="servings">
+            <div class="servings-title-box">
+                <h1>We are serving</h1>
+            </div>
+        <div class="servings-menu">
+            <div class="serving serving-1">
+                <div class="serving-item-1"></div>
+                <h1>Breakfast</h1>
+            </div>
+            <div class="serving serving-2">
+                <div class="serving-item-2"></div>
+                <h1>Main Course</h1>
+            </div>
+            <div class="serving serving-3">
+                <div class="serving-item-3"></div>
+                <h1>Desserts</h1>
+            </div>
+            <div class="serving serving-4">
+                <div class="serving-item-4"></div>
+                <h1>Beverages</h1>
+            </div>
+        </div>
+    </section>
 
-				<!-- <script>
-					$ ('.message').click(function(){
-						$('form').slideUp(1000).slideDown(1000);
-					});
-				</script> -->
-			<script>
-				$ ('.message').click(function(){
-					$('form').animate({height: "toggle", opacity: "toggle"}, 1000);
-					// $('form').slideUp(1000).slideDown(1000);
-				});
-			</script>
+    <!-- servings ends here -->
 
-		</div>
-	</body>
+    <section class="about-us">
+        <div class="about-header">
+            <h1>About us</h1>
+        </div>
+        <div class="container">
+            <div class="about-us-story">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni omnis, est placeat cupiditate maiores 
+                    totam sapiente nulla suscipit in quis, at pariatur aut saepe ex iusto nihil natus commodi adipisci!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni omnis, est placeat cupiditate maiores 
+                    totam sapiente nulla suscipit in quis, at pariatur aut saepe ex iusto nihil natus commodi adipisci!</p>
+            </div>
+            <div class="about-us-owner">
+                <img src="./assets/about-us.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- about-us ends here -->
+
+    <div class="contact-us">
+        <div class="container">
+            <div class="contact-us-logo">
+                <div class="contact-us-logo-inner">
+                    <h1 class="first-word">Kanan</h1>
+                    <div class="second-word-box">
+                        <div class="line line-left"></div>
+                        <h2 class="second-word">Me</h2>
+                        <div class="line line-right"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-details">
+                <div class="contact contact-number">
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                    <span>09667909893</span>
+                </div>
+                <div class="contact contact-address">
+                    <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                    <span>#132 Yakal St. San Miguel, Tarlac</span>
+                </div>
+                <div class="contact contact-email">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <span>cchandlerdave@gmail.com</span>
+                </div>
+                <div class="contact website">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <div class="social-media">
+                <div class="contact contact-facebook">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    <span>/KananMeRestaurant</span>
+                </div>
+                <div class="contact contact-instagram">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <span>@KananMeRestaurant</span>
+                </div>
+                <div class="contact contact-twitter ">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <span>@KananMeRestaurant</span>
+                </div>
+                <div class="contact linked-in">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <span>/KananMeRestaurant</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact us ends here -->
+
+    <footer id="footer">
+        <span>Kanan Me, Copyright &copy; 2020</span>
+    </footer>
+</body>
 </html>
