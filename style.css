@@ -354,19 +354,21 @@ nav{
     padding: 3rem 0;
 }
 
+.contact-us .container{
+    text-align: center;
+}
+
 .contact-us-logo{
     display: inline-block;
     height: 320px;
     width: 320px;
-    margin: 0 5rem;
-    padding: 2rem;
+    padding: 0 2rem;
 }
 
 .contact-details{
     display: inline-block;
     height: 320px;
     width: 320px;
-    margin: 0 5rem;
     padding: 0 2rem;
     font-size: 1.5rem;
     word-spacing: .1rem;
@@ -379,7 +381,6 @@ nav{
     display: inline-block;
     height: 320px;
     width: 320px;
-    margin: 0 5rem;
     padding: 0 2rem;
     font-size: 1.5rem;
     word-spacing: .2rem;
@@ -393,12 +394,9 @@ nav{
 }
 
 .contact-us .container .contact-us-logo-inner{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 9rem;
+    margin: 10rem auto;
     color: #ffffff;
+    text-align: center;
 }
 
 
