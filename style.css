@@ -325,9 +325,9 @@ nav{
 
 .about-us-story p{
     margin: auto 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: justify;
-    text-indent: 1rem;
+    text-indent: 2rem;
     font-family: var(--secondary-font);
 }
 
