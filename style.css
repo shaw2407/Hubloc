@@ -76,7 +76,7 @@ nav{
     position: fixed;
     top: 0;
     right: 0;
-    width: 50%;
+    width: 60%;
     height: 100vh;
     background: rgb(34, 34, 34);
     display: flex;
@@ -91,7 +91,7 @@ nav{
 .nav-link{
     color: white;
     font-family: var(--main-font);
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-transform: uppercase;
 }
 
@@ -219,24 +219,25 @@ nav{
     width: 100%;
     height: auto;
     font-family: var(--extra-font);
-    font-size: 5rem;
+    font-size: 3rem;
     text-align: center;
     padding: 2rem 0;
     color: rgb(206, 132, 15);
     line-height: 150%;
+    text-transform: uppercase;
 }
 
 .servings-menu{
     width: 100%;
-    padding: 5rem 0 5rem 0;
+    padding: 3rem 0 5rem 0;
 }
 
 
 .serving{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     display: inline-block;
-    margin: 5rem auto;
+    margin: 5rem 3.5rem;
     text-transform: uppercase;
     text-align: center;
     font-family: var(--secondary-font);
