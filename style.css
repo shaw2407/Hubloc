@@ -82,7 +82,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 6rem;
+    padding: 5rem;
     transform: translateX(100%);
     transition: .8s ease-in-out;
     z-index: 200;
