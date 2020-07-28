@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
 
 *,
 *::before,
@@ -207,16 +207,16 @@ nav{
 /* servings */ /* servings */ /* servings */ /* servings */ /* servings */ /* servings */ /* servings */ /* servings */ /* servings */ 
 
 .servings{
-    width: 100%;
-    background: rgb(36, 36, 36);
+    width: 100%;    
+    background: url(./assets/bg-main-section4.jpg) center/cover no-repeat fixed;
     text-align: center;
-    padding: 3rem;
+    padding: 5rem 0 10rem 0;
 }
 
 .servings-title-box{
     width: 100%;
     height: auto;
-    font-family: var(--extra-font);
+    font-family: var(--main-font);
     font-size: 3rem;
     text-align: center;
     padding: 2rem 0;
@@ -227,15 +227,15 @@ nav{
 
 .servings-menu{
     width: 100%;
-    padding: 3  rem 0 5rem 0;
+    /* padding: 3rem 0 0rem 0; */
 }
 
 
 .serving{
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     display: inline-block;
-    margin: 5rem 3.5rem;
+    margin: 8rem 5rem;
     text-transform: uppercase;
     text-align: center;
     font-family: var(--extra-font);
@@ -243,11 +243,15 @@ nav{
     color: #ffffff;
 }
 
+.serving h1{
+    margin: 1rem 0;
+    text-shadow: 0 0 10px #fff, 0 0 20px #ffd311;
+}
 
 .serving-1,
-.serving-1,
-.serving-1,
-.serving-1{
+.serving-2,
+.serving-3,
+.serving-4{
     display: inline-block;
 }
 
@@ -285,6 +289,84 @@ nav{
 }
 
 
+
+/* top-menu */ /* top-menu */ /* top-menu */ /* top-menu */ /* top-menu */ /* top-menu */ /* top-menu */ /* top-menu */ /* top-menu */ 
+
+.top-menu{
+    width: 100%;
+    background: url(./assets/bg-main-section5.jpg) center/cover no-repeat fixed;
+}
+
+.top-menu-box{
+    height: 100%;
+    text-align: center;
+}
+
+.menu-list{
+    width: 300px;
+    padding: 0;
+    text-align: center;
+    color: #ffff;
+}
+
+.menu-list-1{
+    display: inline-block;
+    height: auto;
+}
+
+.menu-list-2{
+    display: inline-block;
+    height: auto;
+}
+
+.menu-list-3{
+    display: inline-block;
+    height: auto;
+}
+
+.menu-list-box{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+
+
+.menu-list h1{
+    width: 100%;
+    text-align: left;
+    font-size: 4rem;
+    font-family: var(--secondary-font);
+    padding: 2rem 0;
+    color: rgb(224, 33, 33);
+    text-shadow: 0 0 20px #ff1111;
+    grid-column: span 2;
+}
+
+
+.best-seller-items,
+.selling-price{
+    padding: 3rem 0;
+    font-size: 1.5rem;
+    font-family: var(--main-font);
+}
+
+.best-seller-items li,
+.selling-price li{
+    padding: 0 0 3rem 0;
+}
+
+.selling-price li{
+    text-align: right;
+    padding-right: 2rem;
+}
+
+
+
+
+
+
 /* About us */ /* About us */ /* About us */ /* About us */ /* About us */ /* About us */ /* About us */ /* About us */ /* About us */ 
 
 
@@ -292,9 +374,9 @@ nav{
     width: 100%;
 }
 
-.about-header{
+/* .about-header{
     width: 100%;
-    height: 35vh;
+    height: 40vh;
     background: url(./assets/bg-main-section1.jpg);
     background-position: center;
     background-size: cover;
@@ -302,20 +384,19 @@ nav{
     text-align: center;
     display: flex;
     align-items: center;
-}
+} */
 
-.about-header h1{
+/* .about-header h1{
     display: inline-block;
     margin: 0 auto;
     font-family: var(--main-font);
     font-size: 5rem;
     text-transform: uppercase;
     color: rgb(245, 155, 10);
-}
+} */
 
 .about-us-story{
     width: 100%;
-    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -323,7 +404,7 @@ nav{
 }
 
 .about-us-story p{
-    margin: auto 0;
+    margin: 3rem auto;
     font-size: 2rem;
     text-align: justify;
     text-indent: 2rem;
@@ -335,13 +416,19 @@ nav{
     height: 50vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .about-us-owner img{
     margin: 1rem 0;
     height: 80%;
+    font-size: 0;
 }
 
+#owner{
+    display: block;
+    text-align: right;
+}
 
 
 /* contact-us */ /* contact-us */ /* contact-us */ /* contact-us */ /* contact-us */ /* contact-us */ /* contact-us */ /* contact-us */ 
@@ -349,43 +436,46 @@ nav{
 
 .contact-us{
     width: 100%;
-    background: rgb(36, 36, 36);
+    background: rgb(19, 19, 19);
     padding: 3rem 0;
 }
 
 .contact-us .container{
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .contact-us-logo{
     display: inline-block;
     height: 200px;
     width: 320px;
-    padding: 0 2rem;
+    padding: 0 10em;
 }
 
 .contact-details{
     display: inline-block;
     height: 320px;
     width: 320px;
-    padding: 0 2rem;
     font-size: 1.5rem;
     word-spacing: .1rem;
     color: #ffffff;
     font-family: var(--extra-font);
     text-align: center;
+    /* border-left: #ffff .5px solid; */
+    /* border-right: #ffff .5px solid; */
 }
 
 .social-media{
     display: inline-block;
     height: 320px;
     width: 320px;
-    padding: 0 2rem;
     font-size: 1.5rem;
     word-spacing: .2rem;
     color: #ffffff;
     font-family: var(--extra-font);
     text-align: center;
+    
 }
 
 .contact{
@@ -393,8 +483,8 @@ nav{
 }
 
 .contact-us .container .contact-us-logo-inner{
-    margin: 10rem auto;
-    color: #ffffff; 
+    margin: 5rem auto;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -412,4 +502,43 @@ nav{
     color: #ffffff;
     font-size: 1.5rem;
     padding: 2rem 0;
+}
+
+
+
+
+/* Meadia query */ /* Meadia query */ /* Meadia query */ /* Meadia query */ /* Meadia query */ /* Meadia query */ /* Meadia query */ 
+
+@media (min-width: 769px){
+
+    .about-us{
+        height: 70vh;
+    }
+    
+    .about-us .container{
+        display: flex;
+    }
+    
+    .about-us-owner{
+        height: 100%;
+    }
+
+    .about-us-owner img{
+        height: 60%;
+    }
+
+    .about-us-story{
+        padding: 2rem 5rem;
+    }
+
+    .about-us-story p{
+        font-size: 2.5rem;
+        padding: 0 3rem;
+    }
+
+    .contact-us .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
