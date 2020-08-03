@@ -7,20 +7,22 @@
     <link rel="preload" href="style.css">
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
-    <title>Document</title>
+    <title>Home</title>
 </head>
 <body>
     <header>
         <div class="container">
             <nav data-nav>
-                <div class="logo">
-                    <h1 class="first-word">Kanan</h1>
-                    <div class="second-word-box">
-                        <div class="line line-left"></div>
-                        <h2 class="second-word">Me</h2>
-                        <div class="line line-right"></div>
+                <a href="index.html">
+                    <div class="logo">
+                        <h1 class="first-word">Kanan</h1>
+                        <div class="second-word-box">
+                            <div class="line line-left"></div>
+                            <h2 class="second-word">Me</h2>
+                            <div class="line line-right"></div>
+                        </div>
                     </div>
-                </div>
+                </a>
 
                 <div class="menu-toggle">
                     <i class="fa fa-bars" aria-hidden="true" data-toggle></i>
@@ -31,11 +33,11 @@
                     <li class="menu-close">
                         <i class="fa fa-times" aria-hidden="true"></i>
                     </li>
-                    <li class="list-item">
-                        <a href="#" class="nav-link">Home</a>
+                    <li class="list-item active-item">
+                        <a href="index.html" class="nav-link">Home</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="nav-link">Menu</a>
+                        <a href="menu.html" class="nav-link">Menu</a>
                     </li>
                     <li class="list-item">
                         <a href="#" class="nav-link">Reservation</a>
@@ -44,6 +46,10 @@
                         <a href="#" class="nav-link">Contact</a>
                     </li>
                 </ul>
+
+                <div class="nav-shopping-cart">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
             </nav>
         </div>
     </header>
