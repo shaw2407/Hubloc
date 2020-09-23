@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://use.fontawesome.com/0a06301d86.js"></script>
-    <link rel="preload" href="style.css">
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
     <title>Home</title>
@@ -40,9 +39,6 @@
                         <a href="menu.html" class="nav-link">Menu</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="nav-link">Reservation</a>
-                    </li>
-                    <li class="list-item">
                         <a href="#" class="nav-link">Contact</a>
                     </li>
                 </ul>
@@ -52,11 +48,96 @@
                 </div>
             </nav>
         </div>
+
     </header>
 
     
     <!-- Header ends here -->
+    <div class="book-now-box">
+        <div class="book-now">
+            <span class="book-close"><i class="fa fa-times" aria-hidden="true"></i></span>
+            <form class="booking-form" action="">
 
+                <div class="booking-title-wrapper">
+                    <h1 class="booking-title">Book a Table</h1>
+                </div>
+
+                <div class="people-select-wrapper form-wrapper">
+                    <div class="people-select-box form-box">
+                        <div class="people-select form-select">
+                            <span class="people-default-option form-default-pick">Number of person</span>
+                            <span class="people-icon form-icon">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <ul class="people-option-list">
+                            <li value="1" data-person>1 Person</li>
+                            <li value="2" data-person>2 Person</li>
+                            <li value="3" data-person>3 Person</li>
+                            <li value="4" data-person>4 Person</li>
+                            <li value="5" data-person>5 Person</li>
+                            <li value="6" data-person>6 Person</li>
+                            <li value="7" data-person>7 Person</li>
+                            <li value="8" data-person>8 Person</li>
+                            <li value="9" data-person>9 Person</li>
+                            <li value="10" data-person>10 Person</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="date-picker-wrapper form-wrapper">
+                    <div class="date-select-box form-box">
+                        <div class="date-select form-select">
+                            <span class="date-default-pick form-default-pick"></span>
+                            <span class="date-icon form-icon">
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        
+                        <ul class="date-picker-list">
+                            <div class="month-navigator">
+                                <span class="month-prev" data-month-prev>&lt;</span>
+                                <span data-month-now></span>
+                                <span class="month-next" data-month-next>&gt;</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="time-picker-wrapper form-wrapper">
+                    <div class="time-select-box form-box">
+                        <div class="time-select form-select">
+                            <span class="time-default-pick form-default-pick">Choose time</span>
+                            <span class="time-icon form-icon">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        
+                        <ul class="time-picker-list">
+                            <li data-time>10:00 AM</li>
+                            <li data-time>11:00 AM</li>
+                            <li data-time>12:00 AM</li>
+                            <li data-time>1:00 PM</li>
+                            <li data-time>2:00 PM</li>
+                            <li data-time>3:00 PM</li>
+                            <li data-time>4:00 PM</li>
+                            <li data-time>5:00 PM</li>
+                            <li data-time>6:00 PM</li>
+                            <li data-time>7:00P PM</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="send-book-box form-wrapper">
+                    <div class="send-book">
+                        <h1>Book</h1>
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
 
     <section class="main-section">
         <div class="contaier">
