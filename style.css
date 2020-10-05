@@ -104,6 +104,7 @@ nav{
     transform: translateX(100%);
     z-index: 200;
     text-align: center;
+    color: rgb(245, 155, 10);
 }
 
 .nav-link{
@@ -115,12 +116,11 @@ nav{
 
 
 
-.nav-shopping-cart{
+/* .nav-shopping-cart{
     position: fixed;
     height: 60px;
     width: 60px;
     z-index: 199;
-    bottom: 0;
     right: 0;
     color: rgb(245, 155, 10);
     font-size: 3rem;
@@ -130,8 +130,7 @@ nav{
     border-radius: 10rem;
     margin: 2rem;
     cursor: pointer;
-    background: rgb(30, 30, 30);
-}
+} */
 
 
 .open-nav .nav-list{
@@ -234,11 +233,13 @@ nav{
     background: #f59b0a;
     padding: 1rem;
     transition: .5s ease-in-out;
-    /* border-radius: 1rem; */
-    /* border: 3px solid #f59b0a; */
-    color: #ffff;
+    color: #fff;
     text-shadow: 0px 0px 3px #000000;
     text-transform: uppercase;
+}
+
+.call-action-1 a{
+    color: #fff;
 }
 
 .call-action-1:hover,
@@ -921,14 +922,14 @@ nav{
     color: #000000;
     font-size: initial;
     transition-timing-function: ease-in-out;
-    transition-duration: 300ms;
+    transition-duration: 200ms;
 }
 
 .food-addCart:hover{
     cursor: pointer;
-    background: #fff;
+    color: #fff;
     transition-timing-function: ease-in-out;
-    transition-duration: 300ms;
+    transition-duration: 200ms;
 }
 
 .menu-close-1{
@@ -961,7 +962,8 @@ nav{
         position: absolute;
         right: 0;
         height: 100%;
-        width: 80%;
+        /* width: 80%; if contact link is included*/
+        width: 20%; 
         flex-direction: row;
         background: initial;
         padding: 0;
