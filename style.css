@@ -718,6 +718,7 @@ nav{
     background: #ffffff;
 }
 
+
 .menu-box h1{
     height: 100%;
     width: 100%;
@@ -808,7 +809,6 @@ nav{
 }
 
 .food-img{
-    height: 100%;
     width: 100%;
 }
 
@@ -856,6 +856,7 @@ nav{
     font-size: 3rem;
     cursor: pointer;
 }
+
 
 
 

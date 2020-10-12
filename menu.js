@@ -17,39 +17,48 @@ const menuName = ["pork", "beef", "chicken", "seafood", "vegetable", "dessert"];
 const menuPork = [
     {
         menuName: "pork shanghai",
-        menuPrice: [550, 800]
+        menuPrice: 550,
+        menuImage: "./assets/products/menu/pork-menu/pork-shanghai.jpg"
     },
     {
         menuName: "sisig liempo",
-        menuPrice: [750, 1050]
+        menuPrice: 750,
+        menuImage: "./assets/products/menu/pork-menu/sisig-liempo.jpg"
     },
     {
         menuName: "sisig pisngi",
-        menuPrice: [750, 1050]
+        menuPrice: 750,
+        menuImage: "./assets/products/menu/pork-menu/sisig-pisngi.jpg"
     },
     {
         menuName: "grilled liempo",
-        menuPrice: [850, 1200]
+        menuPrice: 850,
+        menuImage: "./assets/products/menu/pork-menu/grilled-liempo.jpg"
     },
     {
         menuName: "pork kare-kare",
-        menuPrice: [875, 1225]
+        menuPrice: 875,
+        menuImage: "./assets/products/menu/pork-menu/pork-kare-kare.jpg"
     },
     {
         menuName: "bicol express",
-        menuPrice: [775, 1085]
+        menuPrice: 775,
+        menuImage: "./assets/products/menu/pork-menu/bicol-express.jpg"
     },
     {
         menuName: "dinuguan",
-        menuPrice: [750, 1050]
+        menuPrice: 750,
+        menuImage: "./assets/products/menu/pork-menu/dinuguan.jpg"
     },
     {
         menuName: "litson kawali",
-        menuPrice: [1060, 1600]
+        menuPrice: 1060,
+        menuImage: "./assets/products/menu/pork-menu/letchon-kawali.jpg"
     },
     {
         menuName: "chicharon bulaklak",
-        menuPrice: [940, 1415]
+        menuPrice: 940,
+        menuImage: "./assets/products/menu/pork-menu/chicharon-bulaklak.jpg"
     }
     
 ]
@@ -57,135 +66,145 @@ const menuPork = [
 const menuBeef = [
     {
         menuName: "beef kaldereta",
-        menuPrice: [1000, 1400]
+        menuPrice: 1000,
+        menuImage: "./assets/products/menu/beef-menu/beef-kaldereta.jpg"
     },
     {
         menuName: "beef kare-kare",
-        menuPrice: [1250, 1750]
+        menuPrice: 1250,
+        menuImage: "./assets/products/menu/beef-menu/beef-kare-kare.jpg"
     },
     {
         menuName: "bistek",
-        menuPrice: [925, 1290]
+        menuPrice: 925,
+        menuImage: "./assets/products/menu/beef-menu/beef-bistek.jpg"
     },
     {
         menuName: "beef papaitan",
-        menuPrice: [575, 820]
-    },
-    {
-        menuName: "beef papaitan",
-        menuPrice: [575, 820]
-    },
-    {
-        menuName: "beef papaitan",
-        menuPrice: [575, 820]
-    },
-    {
-        menuName: "beef papaitan",
-        menuPrice: [575, 820]
-    }
+        menuPrice: 575,
+        menuImage: "./assets/products/menu/beef-menu/beef-papaitan.jpg"
+    }   
 ]
 
 const menuFish = [
     {
         menuName: "sisig bangus",
-        menuPrice: [925, 1300]
+        menuPrice: 925,
+        menuImage: "./assets/products/menu/fish-menu/sisig-bangus.jpg"
     },
     {
         menuName: "calamares",
-        menuPrice: [775, 1100]
+        menuPrice: 775,
+        menuImage: "./assets/products/menu/fish-menu/calamares.jpg"
     },
     {
         menuName: "binusog na pusit",
-        menuPrice: [850, 1200]
+        menuPrice: 850,
+        menuImage: "./assets/products/menu/fish-menu/binusog-na-pusit.jpg"
     },
     {
         menuName: "spicy pusit",
-        menuPrice: [850, 1200]
+        menuPrice: 850,
+        menuImage: "./assets/products/menu/fish-menu/spicy-pusit.jpg"
     },
     {
         menuName: "baked tahong",
-        menuPrice: [850, 1200]
+        menuPrice: 850,
+        menuImage: "./assets/products/menu/fish-menu/baked-tahong.jpg"
     },
     {
         menuName: "tempura",
-        menuPrice: [1250, 1750]
+        menuPrice: 1250,
+        menuImage: "./assets/products/menu/fish-menu/tempura.jpg"
     },
     {
         menuName: "garlic butter shrimp",
-        menuPrice: [1250, 1750]
+        menuPrice: 1250,
+        menuImage: "./assets/products/menu/fish-menu/garlic-butter-shrimp.jpg"
     },
     {
         menuName: "seafood kare-kare",
-        menuPrice: [1250, 1750]
+        menuPrice: 1250,
+        menuImage: "./assets/products/menu/fish-menu/seafood-kare-kare.jpg"
     },
     {
         menuName: "fish fillet",
-        menuPrice: [850, 1190]
+        menuPrice: 850,
+        menuImage: "./assets/products/menu/fish-menu/fish-fillet.jpg"
     },
     {
         menuName: "fish & fries",
-        menuPrice: [750, 1050]
+        menuPrice: 750,
+        menuImage: "./assets/products/menu/fish-menu/fish-fries.jpg"
     }
 ]
 
 const menuChicken = [
     {
         menuName: "chicken skin",
-        menuPrice: [400, 580]
+        menuPrice: 400,
+        menuImage: "./assets/products/menu/chicken-menu/chicken-skin.jpg"
     },
     {
         menuName: "fries",
-        menuPrice: [440, 580]
+        menuPrice: 440,
+        menuImage: "./assets/products/menu/chicken-menu/chicken-fries.jpg"
     },
     {
         menuName: "isaw",
-        menuPrice: [440, 580]
+        menuPrice: 440,
+        menuImage: "./assets/products/menu/chicken-menu/isaw.jpg"
     },
     {
         menuName: "chicken curry",
-        menuPrice: [850, 1200]
+        menuPrice: 850,
+        menuImage: "./assets/products/menu/chicken-menu/chicken-curry.jpg"
     },
     {
         menuName: "chicken wings",
-        menuPrice: [850, 1200]
+        menuPrice: 850,
+        menuImage: "./assets/products/menu/chicken-menu/chicken-wings.jpg"
     }
 ]
 
 const menuVegetables = [
     {
         menuName: "pinakbet",
-        menuPrice: [700, 980]
+        menuPrice: 700,
+        menuImage: "./assets/products/menu/vegetable-menu/pinakbet.jpg"
     },
     {
         menuName: "chopsuey",
-        menuPrice: [775, 1085]
-    },
-    {
-        menuName: "emperor vegetable",
-        menuPrice: [875, 580]
+        menuPrice: 775,
+        menuImage: "./assets/products/menu/vegetable-menu/chop-suey.jpg"
     },
     {
         menuName: "sizzling tofu",
-        menuPrice: [550, 770]
+        menuPrice: 550,
+        menuImage: "./assets/products/menu/vegetable-menu/sizzling-tofu.jpg"
     },
     {
-        menuName: "tokwat baboy",
-        menuPrice: [675, 945]
+        menuName: "tokwa't baboy",
+        menuPrice: 675,
+        menuImage: "./assets/products/menu/vegetable-menu/tokwat-baboy.jpg"
     }
 ]
 
 const menuDessert = [
     {
         menuName: "halo-halo w/ ice cream",
-        menuPrice: 80
+        menuPrice: 80,
+        menuImage: "./assets/products/menu/desserts-menu/halo-halo-ice-cream.jpg"
     },
     {
         menuName: "blueberry cheesecake",
-        menuPrice: 95
+        menuPrice: 95,
+        menuImage: "./assets/products/menu/desserts-menu/blueberry-cheesecake.jpg"
     },
     {
         menuName: "leche flan",
-        menuPrice: 90
+        menuPrice: 90,
+        menuImage: "./assets/products/menu/desserts-menu/leche-flan.jpg"
     }
 ]
 
@@ -210,7 +229,7 @@ function menuList(food){
     return `
     <li class="menu-item">
         <div class="food-img">
-            <img src="./assets/products/menu/menu-pork.jpg">
+            <img src="${food.menuImage}">
         </div>
         <h1 class="food-name">${food.menuName}</h1>
         <h1 class="food-price">${food.menuPrice}</h1>
