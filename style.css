@@ -568,14 +568,21 @@ nav{
 .menu-gallery .gal-item{
     display: inline-block;
     width: 100%;
+    overflow: hidden;
 }
 
 .menu-gallery .gal-item img{
     width: 100%;
+    transition: 500ms;
 }
 
+.menu-gallery .div-2 img{
+    display: none;
+}
 
-
+.menu-gallery .gal-item img:hover{
+    transform: scale(1.2);
+}
 
 
 
@@ -593,7 +600,7 @@ nav{
 }
 
 .about-us p{
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: var(--extra-font);
 }
 
@@ -947,21 +954,20 @@ nav{
     .menu-gallery .gal-item{
         height: 100%;
         width: auto;
-        overflow: hidden;
     }
 
     .menu-gallery .gal-item img{
         height: 100%;
         width: auto;
-        /* transition-delay: 100ms; */
         transition: 500ms;
+        display: inline-block;
     }
 
-    .menu-gallery .gal-item img:hover{
-        transform: scale(1.2);
+    .menu-gallery .div-2v2{
+        display: none;
     }
 
-    .div-2{
+    .menu-gallery .div-2{
         grid-row: span 2;
     }
 
@@ -977,6 +983,7 @@ nav{
     .about-us p{
         position: relative;
         font-size: 2.5em;
+        z-index: 1;
     }
 
     
